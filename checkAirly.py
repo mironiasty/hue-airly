@@ -7,4 +7,4 @@ color = GetAirColor()
 xyColor = RGBtoXY(color['red'], color['green'], color['blue'])
 r = requests.put(
     'http://192.168.7.28/api/'+hueuser+'/lights/14/state',
-    json={'on': True, 'bri': 10, 'xy': xyColor})
+    json={'on': True, 'bri': 70, 'xy': xyColor})
