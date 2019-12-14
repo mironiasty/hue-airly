@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+EnhanceColor	../colorConverter.py	/^def EnhanceColor(normalized):$/;"	kind:function	line:6
+RGBtoXY	../colorConverter.py	/^def RGBtoXY(r, g, b):$/;"	kind:function	line:13
+RGBtoXY	../hello.py	/^from colorConverter import RGBtoXY$/;"	kind:namespace	line:3
+airly.py	../airly.py	1;"	kind:file	line:1
+airlykey	../airly.py	/^from apikeys import airlykey$/;"	kind:namespace	line:7
+airlykey	../apikeys.py	/^airlykey = 'k5Aney2gilnVebdoMOjjpM6aqbWPaNqZ'$/;"	kind:variable	line:2
+apikeys.py	../apikeys.py	1;"	kind:file	line:1
+colorConverter.py	../colorConverter.py	1;"	kind:file	line:1
+hello.py	../hello.py	1;"	kind:file	line:1
+hueuser	../apikeys.py	/^hueuser = "LDIJo9D8ZUQgurhZ2o2fI7DzNrswoqpG17k3crnS"$/;"	kind:variable	line:1
+hueuser	../hello.py	/^from apikeys import hueuser$/;"	kind:namespace	line:2
+latitude	../airly.py	/^latitude = 50.06861$/;"	kind:variable	line:10
+longitude	../airly.py	/^longitude = 19.98372$/;"	kind:variable	line:9
+math	../colorConverter.py	/^import math$/;"	kind:namespace	line:1
+r	../airly.py	/^r = requests.get('https:\/\/airapi.airly.eu\/v2\/measurements\/point?lat=' + latitude + '&lng=' + longitude, headers={$/;"	kind:variable	line:12
+r	../hello.py	/^r = requests.put($/;"	kind:variable	line:12
+requests	../airly.py	/^import requests$/;"	kind:namespace	line:6
+requests	../hello.py	/^import requests$/;"	kind:namespace	line:1
+xh	../hello.py	/^xh = RGBtoXY(211, 34, 11)$/;"	kind:variable	line:11
